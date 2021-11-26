@@ -1,0 +1,255 @@
+* {
+    margin:0;
+    padding: 0;
+}
+html,body {
+  height: 100%;
+}
+
+
+body {
+    background-color: #380577;
+    color: white;
+}
+header{
+    margin:0 auto;
+    height:120px;    
+    width:1040px;
+}
+main{
+    margin:0 auto;
+    padding-bottom: 100px;
+    width:1040px;
+}
+footer{   
+    margin:-100px auto 0;
+    position: relative;
+    height: 100px;
+    width:1040px;
+}
+.footer__block {
+    display: inline-block;
+    width: 335px;
+    text-transform: uppercase;
+}
+.footer__block a {
+    text-decoration: none;
+}
+.footer__block:nth-child(2){
+    text-align: center;
+}
+.footer__icons  {
+    display: inline-block;
+    width: 335px;
+    text-align: right;
+    margin-left: 10px;
+}
+.footer__img {
+    width: 50px;
+}
+a {
+    color: white;
+}
+h1,h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+img {
+    box-shadow: #380577;
+    border: 5px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.main__img—float {
+    width: 550px;
+    margin-right: 40px;
+    float:left;
+}
+.services {
+    margin: 35px;
+}
+.services__img {
+    width: 240px;
+    height: 150px;
+}
+.services__item {
+    padding: 0 0 40px 40px;
+    width: 240px;
+    float: left;
+}
+.services__item a {
+    text-decoration: none;
+    color: red;
+}
+.services__item a:hover {
+    text-decoration: underline;
+}
+.sanyaXstasyan {
+    text-align: center;
+}
+table.sanyaXstasyan{
+
+    border-collapse: collapse;
+    border: 5px solid #380577;
+}
+table.sanyaXstasyan td {
+    padding: 10px;
+    border-top: 4px solid maroon;
+    border-bottom: 4px solid maroon;
+    text-align: left; 
+    
+}
+.sanyaXstasyan caption {
+    text-align: start;
+    font-size: 24px;
+}
+.sanyaXstasyan th {
+    border-top:solid 5px rebeccapurple;
+    border-bottom:solid 5px rebeccapurple;
+
+}
+.sanyaXstasyan th:first-child {
+    width: 10%;
+}
+.sanyaXstasyan th:nth-child(2), .sanyaXstasyan th:last-child {
+    width: 25%;
+}
+.sanyaXstasyan td:nth-child(2), .sanyaXstasyan td:last-child, .sanyaXstasyan td:first-child {
+    text-align: center;
+}
+.sanyaXstasyan tr:nth-child(2), .sanyaXstasyan tr:last-child {
+    background-color: palevioletred;
+    
+}
+.sanyaXstasyan tr:first-child {
+    background-color: #380577;
+}
+
+.h1—invisible {
+    visibility: hidden;
+}
+.about {
+    text-align: center;
+    padding: 40px;
+    width: 600px;
+}
+.about__img {
+    width: 600px;
+}
+.about p {
+    text-align: start;
+    
+}
+.about h2 {
+    text-transform: uppercase;
+    color: palevioletred;
+}
+.team {
+    color: whitesmoke;
+}
+.contacs {
+    margin: 45px;
+    padding: 40px;
+    text-align: center;
+}
+.contacs p {
+    color: purple;
+}
+.contacs h2 {
+    text-transform: uppercase;
+}
+.contacs a {
+    color: white;
+    text-decoration: underline;
+}
+
+.pink {
+    color: palevioletred;
+}
+
+.logo {
+    width: 200px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255,  0.4);
+    margin: 10px;
+
+}
+.logowe {
+    width: 450px;
+    height: 200px;
+    margin: 10px;
+    text-align: center;
+}
+
+#wrapper{
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+     width: 100%;
+}
+#panorama {
+    width: 100%;
+    height: 150px;
+    background: url(../img/2.jpg) no-repeat center 70%;
+    background-size: cover; /*масштабирование фона*/
+}
+#logo {
+    font-family: 'Press Start 2P', cursive, Verdana, Arial, Helvetica, sans-serif;;
+    text-transform: uppercase;
+    text-decoration:none;
+	color:#fff;
+	font-weight: bold;
+	line-height: 100px;
+	font-size: 24px;
+    float:left
+}
+#mainnav {
+    font-family: 'Press Start 2P', cursive, Verdana, Arial, Helvetica, sans-serif;
+    padding: 3.8%;
+    text-align: center;
+    font-size: 1.4em;
+}
+#mainnav ul{
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+#mainnav li{
+    display: inline;
+}
+#mainnav li.activate a{
+    font-weight: bold;
+}
+#mainnav a{
+    text-decoration: none;
+}
+#mainnav a:hover    {
+    text-decoration: underline;
+}
+#message  {
+    width: 250px;
+    height: 200px;
+}
+#contact-form input{
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: #eddfff;
+}
+#contact-form input[type="submit"] {
+    background-color: rgb(191, 65, 223);
+    height: 30px;
+}
+#contact-form input[type="submit"]:hover {
+    background-color: rgb(246, 149, 255);
+    height: 30px;
+}
